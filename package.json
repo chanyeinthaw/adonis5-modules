@@ -1,0 +1,57 @@
+{
+  "name": "adonis5-modules",
+  "version": "1.0.0",
+  "description": "Module generator for adonis5",
+  "scripts": {
+    "dev": "tsc --watch",
+    "compile": "tsc",
+    "build": "npm run compile",
+    "prepare": "npm run build",
+    "release": "np",
+    "version": "npm run build"
+  },
+  "keywords": [
+    "Adonis",
+    "5",
+    "adonis5-modules"
+  ],
+  "author": "Chan Nyein Thaw",
+  "license": "MIT",
+  "types": "build/adonis-typings/index.d.ts",
+  "typings": "build/adonis-typings/index.d.ts",
+  "devDependencies": {
+    "@adonisjs/assembler": "^5.3.9",
+    "@adonisjs/core": "^5.4.2",
+    "@poppinss/dev-utils": "^2.0.0",
+    "@types/node": "^14.17.11",
+    "np": "^7.6.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@adonisjs/mrm-preset": "^5.0.3"
+  },
+  "main": "build/index.js",
+  "files": [
+    "build/adonis-typings",
+    "build/src",
+    "build/index.d.ts",
+    "build/index.js",
+    "build/templates",
+    "build/providers",
+    "build/commands"
+  ],
+  "adonisjs": {
+    "types": "adonis5-modules",
+    "providers": [
+      "adonis5-modules"
+    ],
+    "commands": [
+      "adonis5-modules/build/commands"
+    ]
+  },
+  "np": {
+    "contents": ".",
+    "anyBranch": false
+  }
+}
