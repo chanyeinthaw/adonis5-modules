@@ -3,7 +3,7 @@ import {ApplicationContract} from "@ioc:Adonis/Core/Application";
 export abstract class BaseModuleProvider {
     public static needsApplication = true
 
-    constructor(protected app: ApplicationContract) {}
+    protected constructor(protected app: ApplicationContract) {}
 
     abstract resolve(): Record<string, () => any>
 

@@ -1,9 +1,10 @@
+import { ApplicationContract } from '@ioc:Adonis/Core/Application'
+
 export default class ModulesProvider {
 	public static needsApplication = true
 
-	constructor() {}
+	constructor(protected app: ApplicationContract) {}
 
-	public async register(): Promise<void> {}
-
-	public async boot(): Promise<void> {}
+	public async register() {
+	}
 }
