@@ -17,8 +17,8 @@
   ],
   "author": "Chan Nyein Thaw",
   "license": "MIT",
-  "types": "build/adonis-typings/index.d.ts",
-  "typings": "build/adonis-typings/index.d.ts",
+  "types": "build/index.d.ts",
+  "typings": "build/index.d.ts",
   "devDependencies": {
     "@adonisjs/assembler": "^5.3.9",
     "@adonisjs/core": "^5.4.2",
@@ -33,7 +33,6 @@
   },
   "main": "build/index.js",
   "files": [
-    "build/adonis-typings",
     "build/src",
     "build/index.d.ts",
     "build/index.js",

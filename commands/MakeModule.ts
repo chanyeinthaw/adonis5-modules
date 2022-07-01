@@ -95,8 +95,9 @@ export interface ${name}ServiceContract {
 
 const providerStub = (name: string) => `
 import ${name}Service from './Services/${name}.service'
+import { BaseModuleProvider } from "adonis5-modules";
 
-export default class ${name}Provider extends ModuleProvider {
+export default class ${name}Provider extends BaseModuleProvider {
     resolve = () => ({
         '${name}/${name}': () => new ${name}Service()
         // add service resolutions here
