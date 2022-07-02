@@ -33,4 +33,4 @@ This command will create a module with provided name under `modules` directory.
 
 ## Example
 
-[adonis5-modules-example](https://github.com:chanyeinthaw/adonis5-modules-example.git)
+[adonis5-modules-example](https://github.com/chanyeinthaw/adonis5-modules-example.git)
