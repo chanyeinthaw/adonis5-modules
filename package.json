@@ -1,6 +1,6 @@
 {
   "name": "adonis5-modules",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Module generator for adonis5",
   "scripts": {
     "dev": "tsc --watch",
